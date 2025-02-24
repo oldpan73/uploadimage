@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Simple upload image</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Inserisco il foglio di stile -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form name="simpleUpload">
+            <!-- i campi per poter caricare il file -->
+            <div id="dropArea" class="drop-area">
+                <p>Trascina qui la tua immagine o <span class="browse">clicca per caricare</span></p>
+                <input type="file" class="form-control file-input" id="imageInput1" name="imageInput1" accept="image/jpeg">
+            </div>
+            <br>
+            <!-- inseriesco il valore base64 dell'immagine caricata-->
+            <input type="hidden" id="imageBase64_1" name="frontedocumento" value="">
+            <!-- visualizzo l'anteprima dell'immagine caricata-->
+            <div id="previewContainer" class="preview"></div>  
+        </form>
+        <!-- inserisco lo script -->
+        <script src="script.js"></script>
+    </body>
+</html>
+
+

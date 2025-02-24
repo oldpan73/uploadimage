@@ -1,0 +1,29 @@
+.drop-area {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.drop-area p {
+    margin: 0;
+    font-size: 16px;
+    color: #007bff;
+}
+
+.drop-area .browse {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.file-input {
+    display: none; /* Nasconde il normale input file */
+}
+
+.preview img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
